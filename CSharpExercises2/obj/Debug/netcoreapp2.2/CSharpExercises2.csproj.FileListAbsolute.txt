@@ -1,0 +1,11 @@
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/bin/Debug/netcoreapp2.2/CSharpExercises2.deps.json
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/bin/Debug/netcoreapp2.2/CSharpExercises2.runtimeconfig.json
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/bin/Debug/netcoreapp2.2/CSharpExercises2.runtimeconfig.dev.json
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/bin/Debug/netcoreapp2.2/CSharpExercises2.dll
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/bin/Debug/netcoreapp2.2/CSharpExercises2.pdb
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/obj/Debug/netcoreapp2.2/CSharpExercises2.csprojAssemblyReference.cache
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/obj/Debug/netcoreapp2.2/CSharpExercises2.csproj.CoreCompileInputs.cache
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/obj/Debug/netcoreapp2.2/CSharpExercises2.AssemblyInfoInputs.cache
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/obj/Debug/netcoreapp2.2/CSharpExercises2.AssemblyInfo.cs
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/obj/Debug/netcoreapp2.2/CSharpExercises2.dll
+/Users/admin/Desktop/Tech/Microsoft LEAP docs/CSharpExercises/CSharpExercises2/CSharpExercises2/obj/Debug/netcoreapp2.2/CSharpExercises2.pdb
