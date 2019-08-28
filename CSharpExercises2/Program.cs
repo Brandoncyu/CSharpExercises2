@@ -187,6 +187,7 @@ namespace CSharpExercises2
             }
 
             //Function
+            ///Basic Function
             Console.WriteLine("\nBasic Function");
             Console.WriteLine("\nWrite a function that prints out whatever string you pass into it. " +
                 "Call the function to make sure it works.");
@@ -226,8 +227,49 @@ namespace CSharpExercises2
             string functionSubString = "Hello World";
             string returnedFunctionSubString = subStringFunc(functionSubString, 2, 2);
 
-
             Console.WriteLine(returnedFunctionSubString);
+
+            ///Reference type equality
+            Console.WriteLine("\nReference type equality");
+            Console.WriteLine("\nWrite a function called AreArraysEqual that " +
+                "returns bool. The function should take in two int arrays and " +
+                "return whether they contain the same elements, " +
+                "in the same order. Call the function to make sure it works.");
+
+            int[] functionArray1 = { 1, 2, 3, 4, 5 };
+            int[] functionArray2 = { 1, 2, 3, 4, 6 };
+
+            Console.WriteLine(AreArraysEqual(functionArray1, functionArray2));
+
+            ///Output parameters
+            Console.WriteLine("\nOutput parameters");
+            Console.WriteLine("\nWrite a function that returns void with two " +
+                "int input parameters. The function should have four output " +
+                "parameters that should return the sum, difference, product, " +
+                "and quotient of the two inputs. " +
+                "Call the function to make sure it works");
+            int operatorInt1 = 6;
+            int operatorInt2 = 3;
+            int sum, difference, product, quotient;
+
+            Operators(operatorInt1, operatorInt2, out sum, out difference, out product, out quotient);
+            Console.WriteLine("operatorInt1: " + operatorInt1);
+            Console.WriteLine("operatorInt2: " + operatorInt2);
+            Console.WriteLine("out sum: "+ sum);
+            Console.WriteLine("out difference: " + difference);
+            Console.WriteLine("out product: " + product);
+            Console.WriteLine("out quotient: " + quotient);
+
+            ///Reference parameters
+            Console.WriteLine("\nReference parameters");
+            Console.WriteLine("\nWrite a function that takes in a string and a " +
+                "reference to an int. The function should return the character " +
+                "at the index specified by the int.");
+
+            Console.WriteLine(ReferenceParam("Hello World!", -1));
+            Console.WriteLine(ReferenceParam("Hello World!", 4));
+            Console.WriteLine(ReferenceParam("Hello World!", 60));
+
             Console.ReadLine();
         }
 
@@ -271,7 +313,31 @@ namespace CSharpExercises2
             if (length == 0)
                 return string1.Substring(index);
             else
-                return string1.Substring(index, index + length);
+                return string1.Substring(index, index + length - 1);
+        }
+
+        public static bool AreArraysEqual(int[] array1, int[] array2)
+        {
+            return string.Join(", ", array1) == string.Join(", ", array2);
+        }
+
+        public static void Operators(int int1, int int2, out int add,
+            out int minus, out int mult, out int div)
+        {
+            add = int1 + int2;
+            minus = int1 - int2;
+            mult = int1 * int2;
+            div = int1 / int2;
+        }
+
+        public static char ReferenceParam(string string1, int index)
+        {
+            if (index < 0)
+                return string1[0];
+            else if (index > string1.Length - 1)
+                return string1[string1.Length - 1];
+            else
+                return string1[index];
         }
 
         public enum Dunno
